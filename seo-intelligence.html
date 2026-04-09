@@ -315,7 +315,94 @@
 
 <!-- 7. TRAFFIC OVERVIEW -->
 <div class="section">
-  <div class="section-title">Traffic Overview &mdash; 28 Days</div>
+  <div class="section-title">Marketing Metrics &mdash; Acquisition & Revenue</div>
+
+  <!-- Data Source Status -->
+  <div class="card" style="margin-bottom:20px;border-left:3px solid #f59e0b;">
+    <div style="display:flex;gap:24px;flex-wrap:wrap;font-size:13px;">
+      <div><span style="color:#22c55e;">●</span> <strong>Google Ads</strong> — Live (API) &nbsp;<span style="color:#6b6560;font-size:11px;">AED 20/day PMax</span></div>
+      <div><span style="color:#ef4444;">●</span> <strong>Meta/IG Ads</strong> — Manual <span style="color:#ef4444;font-size:11px;">⚠ API blocked — see feedback_meta_api_setup.md</span></div>
+      <div><span style="color:#f59e0b;">●</span> <strong>Merchant Center</strong> — Suspended <span style="color:#f59e0b;font-size:11px;">⏳ Review pending</span></div>
+      <div><span style="color:#22c55e;">●</span> <strong>GA4</strong> — Live (API)</div>
+      <div><span style="color:#22c55e;">●</span> <strong>GSC</strong> — Live (API)</div>
+    </div>
+  </div>
+
+  <div class="stats-grid">
+    <!-- CAC -->
+    <div class="stat-card" style="border-top:3px solid #f59e0b;">
+      <div class="stat-value">AED 96</div>
+      <div class="stat-label">CAC (Blended)</div>
+      <div class="stat-sub">Total ad spend ÷ paid orders (30d)</div>
+      <div style="font-size:11px;color:#6b6560;margin-top:6px;">
+        Google: AED 642 + Meta: ~$434 (AED 1,594)<br>
+        ÷ 9 orders = AED 249 blended<br>
+        <em style="color:#f59e0b;">⚠ Includes organic orders — true paid CAC higher</em>
+      </div>
+    </div>
+    <!-- Google Ads CAC -->
+    <div class="stat-card" style="border-top:3px solid #22c55e;">
+      <div class="stat-value">AED 642</div>
+      <div class="stat-label">Google Ads Spend</div>
+      <div class="stat-sub">30-day total · AED 20/day</div>
+      <div style="font-size:11px;color:#6b6560;margin-top:6px;">
+        540 clicks · AED 1.19 CPC<br>
+        1 tracked conversion<br>
+        <span style="color:#22c55e;">Mustafa order: AED 723 (144x ROAS that day)</span>
+      </div>
+    </div>
+    <!-- Meta Ads -->
+    <div class="stat-card" style="border-top:3px solid #ef4444;">
+      <div class="stat-value">$434</div>
+      <div class="stat-label">Meta/IG Ad Spend</div>
+      <div class="stat-sub">All-time · 12 campaigns (Nour)</div>
+      <div style="font-size:11px;color:#6b6560;margin-top:6px;">
+        2,385 link clicks · $0.07 CPC<br>
+        Daily limit: $52.37<br>
+        <span style="color:#ef4444;">⚠ MANUAL — API not connected</span>
+      </div>
+    </div>
+    <!-- Revenue -->
+    <div class="stat-card" style="border-top:3px solid #818cf8;">
+      <div class="stat-value">AED 5,794</div>
+      <div class="stat-label">Revenue (30d)</div>
+      <div class="stat-sub">9 orders · AOV AED 644</div>
+    </div>
+    <!-- AOV -->
+    <div class="stat-card">
+      <div class="stat-value">AED 1,004</div>
+      <div class="stat-label">AOV (All-time)</div>
+      <div class="stat-sub">23 orders · AED 23,101 total</div>
+    </div>
+    <!-- ROAS -->
+    <div class="stat-card">
+      <div class="stat-value">2.6x</div>
+      <div class="stat-label">Blended ROAS (30d)</div>
+      <div class="stat-sub">AED 5,794 rev ÷ ~AED 2,236 spend</div>
+      <div style="font-size:11px;color:#6b6560;margin-top:6px;">
+        Google: AED 642 + Meta: ~AED 1,594
+      </div>
+    </div>
+  </div>
+
+  <!-- Monthly Breakdown -->
+  <div class="card" style="margin-top:20px;">
+    <div style="font-size:12px;text-transform:uppercase;letter-spacing:0.1em;color:#6b6560;margin-bottom:12px;">Monthly Revenue Breakdown</div>
+    <table>
+      <thead><tr><th>Month</th><th>Orders</th><th>Revenue</th><th>AOV</th></tr></thead>
+      <tbody>
+        <tr><td>February 2026</td><td>12</td><td>AED 15,391</td><td>AED 1,283</td></tr>
+        <tr><td>March 2026</td><td>7</td><td>AED 4,885</td><td>AED 698</td></tr>
+        <tr><td>April 2026 (MTD)</td><td>4</td><td>AED 2,825</td><td>AED 706</td></tr>
+        <tr style="font-weight:600;border-top:1px solid rgba(255,255,255,0.1);"><td>All-time</td><td>23</td><td>AED 23,101</td><td>AED 1,004</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- TRAFFIC OVERVIEW -->
+<div class="section">
+  <div class="section-title">Organic Traffic &mdash; 28 Days</div>
   <div class="stats-grid">
     <div class="stat-card">
       <div class="stat-value">6</div>
